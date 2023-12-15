@@ -10,9 +10,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { CarouselsComponent } from './components/carousels/carousels.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ContactformComponent } from './components/contactform/contactform.component';
-import { SignupComponent } from './components/signup/signup.component';
 import { TermspageComponent } from './components/termspage/termspage.component';
 import { ShopComponent } from './components/shop/shop.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +24,9 @@ import { ShopComponent } from './components/shop/shop.component';
     CarouselsComponent,
     FaqComponent,
     ContactformComponent,
-    SignupComponent,
     TermspageComponent,
-    ShopComponent
+    ShopComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
