@@ -4,7 +4,7 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px 8%;
+  padding: 20px 4%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,7 +17,7 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 35px;
 }
 
 /* Styles for links within list items */
@@ -30,4 +30,9 @@ nav ul li a {
 /* Styles for the element with id 'AttireAvenue' */
 #AttireAvenue {
   color: #fff;
+}
+
+
+i{
+  cursor: pointer;
 }

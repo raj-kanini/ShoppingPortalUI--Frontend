@@ -13,6 +13,14 @@ import { ContactformComponent } from './components/contactform/contactform.compo
 import { TermspageComponent } from './components/termspage/termspage.component';
 import { ShopComponent } from './components/shop/shop.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { AddProductComponent } from './components/add-product/add-product.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ViewProductComponent } from './components/view-product/view-product.component';
+import { AdminpageComponent } from './components/adminpage/adminpage.component';
+import { BillingComponent } from './components/billing/billing.component';
+
+
 
 @NgModule({
   declarations: [
@@ -27,10 +35,18 @@ import { SignupComponent } from './components/signup/signup.component';
     TermspageComponent,
     ShopComponent,
     SignupComponent,
+    AddProductComponent,
+    ViewProductComponent,
+    AdminpageComponent,
+    BillingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
